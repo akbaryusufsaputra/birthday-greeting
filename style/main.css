@@ -218,12 +218,17 @@ body {
 .nine {
   overflow: auto;
   height: 100vh;
-  top: 0;
+  top: 0 !important;
 }
 
 .nine p {
   font-size: 2rem;
   font-weight: lighter;
+}
+
+.wishText {
+  height: 100vh;
+  overflow: scroll;
 }
 
 #replay {

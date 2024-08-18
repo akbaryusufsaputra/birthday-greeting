@@ -229,6 +229,7 @@ body {
 .wishText {
   height: 100vh;
   overflow: scroll;
+  font-size: 13px !important;
 }
 
 #replay {
